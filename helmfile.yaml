@@ -6,7 +6,7 @@ releases:
   - name: web-server           # Name of the Helm release
     namespace: default         # Target Kubernetes namespace
     chart: bitnami/nginx       # The chart to install (repo/chart)
-    version: 15.0.0            # Optional: Lock the version for stability
+    version: 23.0.2            # Optional: Lock the version for stability
     
     # Configuration overrides
     values:
